@@ -12,3 +12,4 @@ xcuserdata/
 Pods/
 .swiftpm/
 secrets.json
+dist/
