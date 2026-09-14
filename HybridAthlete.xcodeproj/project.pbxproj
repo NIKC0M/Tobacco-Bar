@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D25A7339BAB53D4F689441A /* AdaptationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234E59322A228C3547DCADC /* AdaptationTests.swift */; };
+		21933D2FDD3D071E4108677E /* CoachService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E3D17A84526AF24A50D11D /* CoachService.swift */; };
+		2261119F207F0B4BE73EB6A6 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97559DB2AA47BA001959B94 /* TodayView.swift */; };
+		2396CF34B34942A440087374 /* PlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A655F5AFFD98EC5A57CEB96F /* PlanGenerator.swift */; };
+		2D227BA6E086BE8B11CFF4F3 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63635BC05226A7AEF4F3CB /* TrendsView.swift */; };
+		3CA9673D6413BEA1E5DF116B /* CoachChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF89E952B9F797B9248F550 /* CoachChatView.swift */; };
+		3E4E63B3708BBC2BB6BFA4B9 /* ReadinessEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7A9E94CF958D305997709 /* ReadinessEngine.swift */; };
+		4016C424B7294639EE4ACC68 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1EA7D13251EDA31B6C91E5 /* KeychainStore.swift */; };
+		41489D381CD514DD587BBB26 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6944E125333ACD4C6F6F9A5 /* AppState.swift */; };
+		4532DBC4366485EE8D072B20 /* TrainingLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74583217D5407ABE0704A038 /* TrainingLoadTests.swift */; };
+		478781BEF9A7891FC9F8673C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213AD46CF8CDA7F1B15C8136 /* OnboardingView.swift */; };
+		58A29DFCE1E7445167727535 /* ReadinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1B7C38048AD0006EAACBDB /* ReadinessTests.swift */; };
+		58CEA1B7F35A69CC603ACD55 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C16FAE0BE3F8FB4397B399 /* HealthKitService.swift */; };
+		6F6AB7FD937A16BC8DEB453A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD4A1D53F77A19F86B5959 /* SettingsView.swift */; };
+		6FC5EBE0638128976CB26F0D /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2576BC31730F6B725E49956E /* Components.swift */; };
+		829ADDADA293A6B2B376F174 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A198204A328D438208C02CE /* Persistence.swift */; };
+		84CC2BB44BC002E26158CF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2141ED9660DAAD7DA22331E /* Assets.xcassets */; };
+		94CC271E00A050B5856EE93D /* CoachPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D9672F8A9273E7016D50F4 /* CoachPrompt.swift */; };
+		95542843C11B0F9E6E7C3920 /* CoachResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD58AFDDF71AD45D71AB35 /* CoachResponse.swift */; };
+		978154CF475CD36BD475C2B4 /* SuuntoLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3021CC24CB5067DEE11179B /* SuuntoLinkTests.swift */; };
+		9F88A13104D07E30E1CA4E43 /* SuuntoSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A935AEDECB5342AB354B49 /* SuuntoSetupView.swift */; };
+		A32A225E9E907ACC4F64B9DA /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1F3C6AA3B3F432E845382 /* NotificationScheduler.swift */; };
+		A7C864E7D5C504557B43C6C2 /* CoachContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC901F2C70CA10403172469 /* CoachContractTests.swift */; };
+		AC4C7D6C3CF432D3E148821E /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F8177314D96C67BBCC4A2 /* PlanView.swift */; };
+		B26707DA62D0240E451114A9 /* TrainingLoadEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE671B7C842EB982DEA881C4 /* TrainingLoadEngine.swift */; };
+		B5003A10856EE1A464F00B16 /* SuuntoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA209E95EE3672A14827F938 /* SuuntoLink.swift */; };
+		B7CA55FCAA24B7D304222AA5 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0B32B15C3E2E505E33C8C /* Core.swift */; };
+		D301B5C7E07DA383C0D1431D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19378BC0C10FB41643CAB3 /* RootView.swift */; };
+		D7BE3CF9ECED1FA677301A64 /* HybridAthleteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE202CE3C7DD91F0E59553F /* HybridAthleteApp.swift */; };
+		D8288ED836033003EDA799A6 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA29CAF10A12410AB4ACEC8 /* Plan.swift */; };
+		DB158E2D5DAA1DC142779EC9 /* AdaptationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF2501EB031922C918B761 /* AdaptationEngine.swift */; };
+		E13A4F814A00EF193082F0E3 /* SuuntoCloudClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB70F7614DB7C58DEB3E85 /* SuuntoCloudClient.swift */; };
+		E8FD1FA4CA495B0FBAD1CA60 /* LogWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32229C6E126C7A8834C80D0 /* LogWorkoutView.swift */; };
+		F086345CB4C46B5F3935F1D7 /* ClaudeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43138306B3AE5A1D10B244AF /* ClaudeClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49112969A5F21262355E27E9 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67E7B5098101EFC23CEDFE0;
+			remoteInfo = HybridAthlete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DC901F2C70CA10403172469 /* CoachContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachContractTests.swift; sourceTree = "<group>"; };
+		213AD46CF8CDA7F1B15C8136 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2576BC31730F6B725E49956E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		43138306B3AE5A1D10B244AF /* ClaudeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeClient.swift; sourceTree = "<group>"; };
+		54925E870572D27CD0A0DD5D /* HybridAthlete.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HybridAthlete.entitlements; sourceTree = "<group>"; };
+		56CD4A1D53F77A19F86B5959 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5E63635BC05226A7AEF4F3CB /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		6949834E40B331511BFDEEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA7A9E94CF958D305997709 /* ReadinessEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadinessEngine.swift; sourceTree = "<group>"; };
+		7234E59322A228C3547DCADC /* AdaptationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptationTests.swift; sourceTree = "<group>"; };
+		74583217D5407ABE0704A038 /* TrainingLoadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLoadTests.swift; sourceTree = "<group>"; };
+		76A935AEDECB5342AB354B49 /* SuuntoSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuuntoSetupView.swift; sourceTree = "<group>"; };
+		7DE202CE3C7DD91F0E59553F /* HybridAthleteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridAthleteApp.swift; sourceTree = "<group>"; };
+		8D1B7C38048AD0006EAACBDB /* ReadinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadinessTests.swift; sourceTree = "<group>"; };
+		9A198204A328D438208C02CE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A2141ED9660DAAD7DA22331E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3D9672F8A9273E7016D50F4 /* CoachPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachPrompt.swift; sourceTree = "<group>"; };
+		A655F5AFFD98EC5A57CEB96F /* PlanGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanGenerator.swift; sourceTree = "<group>"; };
+		A97559DB2AA47BA001959B94 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		B1D1F3C6AA3B3F432E845382 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		B3021CC24CB5067DEE11179B /* SuuntoLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuuntoLinkTests.swift; sourceTree = "<group>"; };
+		B69F8177314D96C67BBCC4A2 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		B9E3D17A84526AF24A50D11D /* CoachService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachService.swift; sourceTree = "<group>"; };
+		BFCF2501EB031922C918B761 /* AdaptationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptationEngine.swift; sourceTree = "<group>"; };
+		C6944E125333ACD4C6F6F9A5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C8C16FAE0BE3F8FB4397B399 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		CA209E95EE3672A14827F938 /* SuuntoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuuntoLink.swift; sourceTree = "<group>"; };
+		CE671B7C842EB982DEA881C4 /* TrainingLoadEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLoadEngine.swift; sourceTree = "<group>"; };
+		CE74D2B357174B687B8C8841 /* HybridAthleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridAthleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AD58AFDDF71AD45D71AB35 /* CoachResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachResponse.swift; sourceTree = "<group>"; };
+		DA5F1FCAAA5FF066CDAED738 /* HybridAthlete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridAthlete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32229C6E126C7A8834C80D0 /* LogWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWorkoutView.swift; sourceTree = "<group>"; };
+		EC19378BC0C10FB41643CAB3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		EEA29CAF10A12410AB4ACEC8 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		F0B0B32B15C3E2E505E33C8C /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		F0FB70F7614DB7C58DEB3E85 /* SuuntoCloudClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuuntoCloudClient.swift; sourceTree = "<group>"; };
+		FCF89E952B9F797B9248F550 /* CoachChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachChatView.swift; sourceTree = "<group>"; };
+		FF1EA7D13251EDA31B6C91E5 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D704DA25A881FC202C24CAF2 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+			); runOnlyForDeploymentPostprocessing = 0; };
+		E07A74F4C5EB4B6599342024 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE091DA3006EF7CF6F83C84 /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7E584FEB4AF5892002AE0389 /* HybridAthlete */,
+				255CE7F966B4E718F42C7992 /* Tests */,
+				43931CF8D8FF624E4C75AE32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255CE7F966B4E718F42C7992 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7234E59322A228C3547DCADC /* AdaptationTests.swift */,
+				1DC901F2C70CA10403172469 /* CoachContractTests.swift */,
+				8D1B7C38048AD0006EAACBDB /* ReadinessTests.swift */,
+				B3021CC24CB5067DEE11179B /* SuuntoLinkTests.swift */,
+				74583217D5407ABE0704A038 /* TrainingLoadTests.swift */,
+			);
+			path = Tests; sourceTree = "<group>";
+		};
+		26034C1F2EE14CB1A962A9F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7DE202CE3C7DD91F0E59553F /* HybridAthleteApp.swift */,
+				B1D1F3C6AA3B3F432E845382 /* NotificationScheduler.swift */,
+				EC19378BC0C10FB41643CAB3 /* RootView.swift */,
+			);
+			path = App; sourceTree = "<group>";
+		};
+		2845BA9F1AB2E72197E94467 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EA7D13251EDA31B6C91E5 /* KeychainStore.swift */,
+			);
+			path = Security; sourceTree = "<group>";
+		};
+		2DF1D0B4DA69187B8948E065 /* Coach */ = {
+			isa = PBXGroup;
+			children = (
+				43138306B3AE5A1D10B244AF /* ClaudeClient.swift */,
+				A3D9672F8A9273E7016D50F4 /* CoachPrompt.swift */,
+				D5AD58AFDDF71AD45D71AB35 /* CoachResponse.swift */,
+				B9E3D17A84526AF24A50D11D /* CoachService.swift */,
+			);
+			path = Coach; sourceTree = "<group>";
+		};
+		3B5F0A749A5AA94951A53063 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCF89E952B9F797B9248F550 /* CoachChatView.swift */,
+				D62415F69EDDDDDCDF3C5342 /* Components */,
+				E32229C6E126C7A8834C80D0 /* LogWorkoutView.swift */,
+				213AD46CF8CDA7F1B15C8136 /* OnboardingView.swift */,
+				B69F8177314D96C67BBCC4A2 /* PlanView.swift */,
+				56CD4A1D53F77A19F86B5959 /* SettingsView.swift */,
+				76A935AEDECB5342AB354B49 /* SuuntoSetupView.swift */,
+				A97559DB2AA47BA001959B94 /* TodayView.swift */,
+				5E63635BC05226A7AEF4F3CB /* TrendsView.swift */,
+			);
+			path = Views; sourceTree = "<group>";
+		};
+		43931CF8D8FF624E4C75AE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F1FCAAA5FF066CDAED738 /* HybridAthlete.app */,
+				CE74D2B357174B687B8C8841 /* HybridAthleteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F96032758B6366EA739ADB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0B32B15C3E2E505E33C8C /* Core.swift */,
+				EEA29CAF10A12410AB4ACEC8 /* Plan.swift */,
+			);
+			path = Models; sourceTree = "<group>";
+		};
+		7E584FEB4AF5892002AE0389 /* HybridAthlete */ = {
+			isa = PBXGroup;
+			children = (
+				26034C1F2EE14CB1A962A9F3 /* App */,
+				2DF1D0B4DA69187B8948E065 /* Coach */,
+				818D804EDAC46862EF74C6BB /* Engine */,
+				F78D43A0FFCF263E54129804 /* Health */,
+				54F96032758B6366EA739ADB /* Models */,
+				8D5E99CA1FA16A481BB188FB /* Resources */,
+				2845BA9F1AB2E72197E94467 /* Security */,
+				D2F3FBFAF9C5045DACC9C6A1 /* Store */,
+				3B5F0A749A5AA94951A53063 /* Views */,
+			);
+			path = HybridAthlete; sourceTree = "<group>";
+		};
+		818D804EDAC46862EF74C6BB /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF2501EB031922C918B761 /* AdaptationEngine.swift */,
+				A655F5AFFD98EC5A57CEB96F /* PlanGenerator.swift */,
+				6DA7A9E94CF958D305997709 /* ReadinessEngine.swift */,
+				CE671B7C842EB982DEA881C4 /* TrainingLoadEngine.swift */,
+			);
+			path = Engine; sourceTree = "<group>";
+		};
+		8D5E99CA1FA16A481BB188FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2141ED9660DAAD7DA22331E /* Assets.xcassets */,
+				54925E870572D27CD0A0DD5D /* HybridAthlete.entitlements */,
+				6949834E40B331511BFDEEF4 /* Info.plist */,
+			);
+			path = Resources; sourceTree = "<group>";
+		};
+		D2F3FBFAF9C5045DACC9C6A1 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				C6944E125333ACD4C6F6F9A5 /* AppState.swift */,
+				9A198204A328D438208C02CE /* Persistence.swift */,
+			);
+			path = Store; sourceTree = "<group>";
+		};
+		D62415F69EDDDDDCDF3C5342 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2576BC31730F6B725E49956E /* Components.swift */,
+			);
+			path = Components; sourceTree = "<group>";
+		};
+		F78D43A0FFCF263E54129804 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				C8C16FAE0BE3F8FB4397B399 /* HealthKitService.swift */,
+				F0FB70F7614DB7C58DEB3E85 /* SuuntoCloudClient.swift */,
+				CA209E95EE3672A14827F938 /* SuuntoLink.swift */,
+			);
+			path = Health; sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67E7B5098101EFC23CEDFE0 /* HybridAthlete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC6A5D4CB6A7B6A892EA6D6;
+			buildPhases = (
+				3C80CCB6BB400293B4A6EB95,
+				E07A74F4C5EB4B6599342024,
+				E84C24DECAC8534EED039110,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybridAthlete;
+			productName = HybridAthlete;
+			productReference = DA5F1FCAAA5FF066CDAED738 /* HybridAthlete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE090BDB43DBBAE62DCAD054 /* HybridAthleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC2922DBC004EFB0B9CB764;
+			buildPhases = (
+				00CCED37CA143CB386565050,
+				D704DA25A881FC202C24CAF2,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FD000E59C0BEF953A596C9,
+			);
+			name = HybridAthleteTests;
+			productName = HybridAthleteTests;
+			productReference = CE74D2B357174B687B8C8841 /* HybridAthleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C67E7B5098101EFC23CEDFE0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EE090BDB43DBBAE62DCAD054 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C67E7B5098101EFC23CEDFE0;
+					};
+				};
+			};
+			buildConfigurationList = 26E84C2B3712F7DFAC8AD93F;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BE091DA3006EF7CF6F83C84;
+			productRefGroup = 43931CF8D8FF624E4C75AE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67E7B5098101EFC23CEDFE0 /* HybridAthlete */,
+				EE090BDB43DBBAE62DCAD054 /* HybridAthleteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84C24DECAC8534EED039110 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CC2BB44BC002E26158CF19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CCED37CA143CB386565050 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D25A7339BAB53D4F689441A /* AdaptationTests.swift in Sources */,
+				A7C864E7D5C504557B43C6C2 /* CoachContractTests.swift in Sources */,
+				58A29DFCE1E7445167727535 /* ReadinessTests.swift in Sources */,
+				978154CF475CD36BD475C2B4 /* SuuntoLinkTests.swift in Sources */,
+				4532DBC4366485EE8D072B20 /* TrainingLoadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C80CCB6BB400293B4A6EB95 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BE3CF9ECED1FA677301A64 /* HybridAthleteApp.swift in Sources */,
+				A32A225E9E907ACC4F64B9DA /* NotificationScheduler.swift in Sources */,
+				D301B5C7E07DA383C0D1431D /* RootView.swift in Sources */,
+				F086345CB4C46B5F3935F1D7 /* ClaudeClient.swift in Sources */,
+				94CC271E00A050B5856EE93D /* CoachPrompt.swift in Sources */,
+				95542843C11B0F9E6E7C3920 /* CoachResponse.swift in Sources */,
+				21933D2FDD3D071E4108677E /* CoachService.swift in Sources */,
+				DB158E2D5DAA1DC142779EC9 /* AdaptationEngine.swift in Sources */,
+				2396CF34B34942A440087374 /* PlanGenerator.swift in Sources */,
+				3E4E63B3708BBC2BB6BFA4B9 /* ReadinessEngine.swift in Sources */,
+				B26707DA62D0240E451114A9 /* TrainingLoadEngine.swift in Sources */,
+				58CEA1B7F35A69CC603ACD55 /* HealthKitService.swift in Sources */,
+				E13A4F814A00EF193082F0E3 /* SuuntoCloudClient.swift in Sources */,
+				B5003A10856EE1A464F00B16 /* SuuntoLink.swift in Sources */,
+				B7CA55FCAA24B7D304222AA5 /* Core.swift in Sources */,
+				D8288ED836033003EDA799A6 /* Plan.swift in Sources */,
+				4016C424B7294639EE4ACC68 /* KeychainStore.swift in Sources */,
+				41489D381CD514DD587BBB26 /* AppState.swift in Sources */,
+				829ADDADA293A6B2B376F174 /* Persistence.swift in Sources */,
+				3CA9673D6413BEA1E5DF116B /* CoachChatView.swift in Sources */,
+				6FC5EBE0638128976CB26F0D /* Components.swift in Sources */,
+				E8FD1FA4CA495B0FBAD1CA60 /* LogWorkoutView.swift in Sources */,
+				478781BEF9A7891FC9F8673C /* OnboardingView.swift in Sources */,
+				AC4C7D6C3CF432D3E148821E /* PlanView.swift in Sources */,
+				6F6AB7FD937A16BC8DEB453A /* SettingsView.swift in Sources */,
+				9F88A13104D07E30E1CA4E43 /* SuuntoSetupView.swift in Sources */,
+				2261119F207F0B4BE73EB6A6 /* TodayView.swift in Sources */,
+				2D227BA6E086BE8B11CFF4F3 /* TrendsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0FD000E59C0BEF953A596C9 = {
+			isa = PBXTargetDependency;
+			target = C67E7B5098101EFC23CEDFE0 /* HybridAthlete */;
+			targetProxy = 49112969A5F21262355E27E9;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A56F6686ED19A1E1BC7047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52CFEE6D84DBBE4A8E36109B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hybridathlete.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridAthlete.app/HybridAthlete";
+			};
+			name = Release;
+		};
+		A5FB681597097E5C9EB6D97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HybridAthlete/Resources/HybridAthlete.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HybridAthlete/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hybridathlete.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		C69AE81DBC13E254DB4ACB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hybridathlete.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridAthlete.app/HybridAthlete";
+			};
+			name = Debug;
+		};
+		F3D0C4AFC1DCACC8993C6761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BDC0E3F6BA2F4643DC85C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HybridAthlete/Resources/HybridAthlete.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HybridAthlete/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hybridathlete.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E84C2B3712F7DFAC8AD93F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A56F6686ED19A1E1BC7047 /* Debug */,
+				F3D0C4AFC1DCACC8993C6761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC6A5D4CB6A7B6A892EA6D6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB681597097E5C9EB6D97D /* Debug */,
+				F6BDC0E3F6BA2F4643DC85C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC2922DBC004EFB0B9CB764 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69AE81DBC13E254DB4ACB00 /* Debug */,
+				52CFEE6D84DBBE4A8E36109B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
